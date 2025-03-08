@@ -5,7 +5,7 @@
   "identifier": "com.zx-tauri.app",
   "build": {
     "beforeDevCommand": "pnpm dev",
-    "devUrl": "http://localhost:1420",
+    "devUrl": "http://localhost:3000",
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
@@ -13,8 +13,9 @@
     "windows": [
       {
         "title": "zx-tauri",
-        "width": 800,
-        "height": 600
+        "width": 1280,
+        "height": 720,
+         "center": true
       }
     ],
     "security": {
