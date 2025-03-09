@@ -34,6 +34,7 @@
     "eslint": "^9.22.0",
     "eslint-config-next": "15.2.0",
     "husky": "^9.1.7",
+    "sass": "^1.85.1",
     "typescript": "^5.8.2"
   }
 }
