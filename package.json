@@ -20,8 +20,8 @@
     "@tauri-apps/plugin-opener": "^2.2.6",
     "@vercel/otel": "^1.10.4",
     "next": "15.2.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",
