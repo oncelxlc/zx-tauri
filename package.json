@@ -12,7 +12,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@next/env": "^15.2.4",
+    "@next/env": "^15.2.5",
     "@opentelemetry/api-logs": "^0.57.2",
     "@opentelemetry/instrumentation": "^0.57.2",
     "@opentelemetry/sdk-logs": "^0.57.2",
@@ -30,7 +30,7 @@
     "@tauri-apps/cli": "^2.4.1",
     "@types/node": "^20.17.30",
     "@types/react": "^19.1.0",
-    "@types/react-dom": "^19.1.1",
+    "@types/react-dom": "^19.1.2",
     "eslint": "^9.24.0",
     "eslint-config-next": "15.2.0",
     "husky": "^9.1.7",
