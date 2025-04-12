@@ -18,7 +18,7 @@
     "@opentelemetry/sdk-logs": "^0.57.2",
     "@tauri-apps/api": "^2.4.1",
     "@tauri-apps/plugin-opener": "^2.2.6",
-    "@vercel/otel": "^1.10.4",
+    "@vercel/otel": "^1.11.0",
     "next": "15.2.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
@@ -29,7 +29,7 @@
     "@eslint/eslintrc": "^3.3.1",
     "@tauri-apps/cli": "^2.4.1",
     "@types/node": "^20.17.30",
-    "@types/react": "^19.1.0",
+    "@types/react": "^19.1.1",
     "@types/react-dom": "^19.1.2",
     "eslint": "^9.24.0",
     "eslint-config-next": "15.2.0",
