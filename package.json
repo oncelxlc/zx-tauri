@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "dev:next": "next dev --turbopack",
+    "dev:next:tauri": "cross-env NEXT_ENV=tauri next dev --turbopack",
+    "build:next": "next build",
+    "start:next": "next start",
+    "lint:next": "next lint",
     "tauri": "tauri",
-    "dev:tauri": "tauri dev",
+    "tauri:tauri": "tauri dev",
     "prepare": "husky"
   },
   "dependencies": {
@@ -31,6 +32,7 @@
     "@types/node": "^20.17.30",
     "@types/react": "^19.1.1",
     "@types/react-dom": "^19.1.2",
+    "cross-env": "^7.0.3",
     "eslint": "^9.24.0",
     "eslint-config-next": "15.2.0",
     "husky": "^9.1.7",
