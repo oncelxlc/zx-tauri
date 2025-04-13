@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   // 配置 assetPrefix，否则服务器无法正确解析您的资产。
-  assetPrefix: isProd ? undefined : isDevTauri ? undefined : `http://${internalHost}:3000`,
+  assetPrefix: isProd ? undefined : isDevTauri ? `http://${internalHost}:3000` :undefined,
 };
 
 export default nextConfig;
