@@ -30,7 +30,7 @@
     "@eslint/eslintrc": "^3.3.1",
     "@tauri-apps/cli": "^2.4.1",
     "@types/node": "^20.17.30",
-    "@types/react": "^19.1.1",
+    "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "cross-env": "^7.0.3",
     "eslint": "^9.24.0",
