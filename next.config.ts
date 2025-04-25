@@ -14,7 +14,9 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   // 配置 assetPrefix，否则服务器无法正确解析您的资产。
-  assetPrefix: isProd ? undefined : isDevTauri ? `http://${internalHost}:3000` :undefined,
+  assetPrefix: isProd ? undefined : isDevTauri ? `http://${internalHost}:3000` : undefined,
+  // 允许开发服务器的 origin 值。
+  allowedDevOrigins: ["192.168.*.*"]
 };
 
 export default nextConfig;
