@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "identifier": "com.zx-tauri.app",
   "build": {
-    "beforeDevCommand": "pnpm dev",
-    "devUrl": "http://localhost:3000",
+    "beforeDevCommand": "pnpm start",
+    "devUrl": "http://localhost:1420",
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
