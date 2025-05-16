@@ -1,6 +1,15 @@
 {
   "name": "zx-tauri",
   "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "description": "A tarn and angular project.",
+  "engines": {
+    "node": "^20.11.1 || ^22.11.0",
+    "pnpm": ">=9.0.0",
+    "yarn": "Please use pnpm instead of Yarn to install dependencies",
+    "npm": "Please use pnpm instead of NPM to install dependencies"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -34,10 +43,7 @@
     "@tauri-apps/cli": "^2.5.0",
     "@types/node": "^20.17.47",
     "husky": "^9.1.7",
-    "sass": "^1.88.0",
+    "sass": "^1.89.0",
     "typescript": "~5.8.3"
-  },
-  "engines": {
-    "node": ">=20.19.0"
   }
 }
