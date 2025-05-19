@@ -1,5 +1,5 @@
 {
-  "$schema": "https://schema.tauri.app/config/2",
+  "$schema": "./gen/schemas/tauri-config-schema.json",
   "productName": "zx-tauri",
   "version": "0.1.0",
   "identifier": "com.zx-tauri.app",
@@ -12,6 +12,7 @@
   "app": {
     "windows": [
       {
+        "label": "main",
         "title": "zx-tauri",
         "width": 1280,
         "height": 720,
@@ -19,17 +20,17 @@
         "minWidth": 1280,
         "minHeight": 720,
         "maxWidth": 1920,
-        "maxHeight": 1080,
-        "url": "main"
+        "maxHeight": 1080
       },
       {
+        "label": "login",
         "title": "zx-tauri",
         "width": 180,
         "height": 320,
         "center": true,
-        "url": "login",
         "visible": false,
-        "resizable": false
+        "resizable": false,
+        "maximizable": false
       }
     ],
     "security": {
