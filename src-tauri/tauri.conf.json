@@ -19,7 +19,17 @@
         "minWidth": 1280,
         "minHeight": 720,
         "maxWidth": 1920,
-        "maxHeight": 1080
+        "maxHeight": 1080,
+        "url": "main"
+      },
+      {
+        "title": "zx-tauri",
+        "width": 180,
+        "height": 320,
+        "center": true,
+        "url": "login",
+        "visible": false,
+        "resizable": false
       }
     ],
     "security": {
