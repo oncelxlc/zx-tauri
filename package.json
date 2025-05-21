@@ -35,13 +35,13 @@
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
-    "@angular/build": "^19.2.12",
-    "@angular/cli": "^19.2.12",
+    "@angular/build": "^19.2.13",
+    "@angular/cli": "^19.2.13",
     "@angular/compiler-cli": "^19.2.11",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@tauri-apps/cli": "^2.5.0",
-    "@types/node": "^20.17.48",
+    "@types/node": "^20.17.50",
     "husky": "^9.1.7",
     "sass": "^1.89.0",
     "typescript": "~5.8.3"
