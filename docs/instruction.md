@@ -4,5 +4,5 @@
 
 ### Tauri
 
-### NEXT.JS
+### Angular
 
