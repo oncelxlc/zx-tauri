@@ -20,7 +20,8 @@
         "minWidth": 1280,
         "minHeight": 720,
         "maxWidth": 1920,
-        "maxHeight": 1080
+        "maxHeight": 1080,
+        "maximizable": false
       },
       {
         "label": "login",
@@ -30,7 +31,8 @@
         "center": true,
         "visible": false,
         "resizable": false,
-        "maximizable": false
+        "maximizable": false,
+        "minimizable": false
       }
     ],
     "security": {
