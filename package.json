@@ -41,9 +41,9 @@
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@tauri-apps/cli": "^2.5.0",
-    "@types/node": "^20.17.50",
+    "@types/node": "^20.17.57",
     "husky": "^9.1.7",
-    "sass": "^1.89.0",
+    "sass": "^1.89.1",
     "typescript": "~5.8.3"
   }
 }
