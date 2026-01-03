@@ -5,7 +5,7 @@
   "license": "MIT",
   "description": "A tarn and angular project.",
   "engines": {
-    "node": "^20.11.1 || ^22.11.0",
+    "node": "^22.11.0 || ^24.12.0",
     "pnpm": ">=9.0.0",
     "yarn": "Please use pnpm instead of Yarn to install dependencies",
     "npm": "Please use pnpm instead of NPM to install dependencies"
