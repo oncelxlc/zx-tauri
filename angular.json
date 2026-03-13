@@ -9,15 +9,12 @@
   "schematics": {
     "@schematics/angular:component": {
       "style": "scss",
-      "standalone": true,
       "type": "component"
     },
     "@schematics/angular:directive": {
-      "standalone": true,
       "type": "directive"
     },
     "@schematics/angular:pipe": {
-      "standalone": true,
       "typeSeparator": "."
     },
     "@schematics/angular:service": {
